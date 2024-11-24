@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="IMG/minhaFoto-removebg-preview.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo" aria-label="Página inicial">Gabriele.</a>
+        <nav class="navegacao">
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#estudos">Estudos</a>
+            <a href="#contatos">Contatos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="conteudo">
+                <h1>Oi, me chamo Gabriele</h1>
+                <h3>Estudante de Desenvolvimento Web</h3>
+                <p>Tenho 20 anos e estou sempre aprimorando meus conhecimentos em diversas áreas. Atualmente, estudo Front-End (HTML, CSS e JavaScript).</p>
+            </div>
+            <img src="IMG/minhaFoto-removebg-preview.png" alt="Foto de Gabriele sorrindo">
+        </section>
+
+        <section class="estud">
+            <h2 id="estudos">Meus Estudos</h2>
+            <div class="assuntos">
+                <article class="adm">
+                    <h3>Administração</h3>
+                    <p>Fiz ensino médio integrado ao técnico em Administração (2019-2021).</p>
+                </article>
+                <article class="biomed">
+                    <h3>Biomedicina</h3>
+                    <p>Estou cursando Biomedicina desde 2022 (término em 2025).</p>
+                </article>
+                <article class="gestao">
+                    <h3>Gestão de Pequenos Negócios</h3>
+                    <p>Curso online pela escola Start (2023).</p>
+                </article>
+                <article class="financ">
+                    <h3>Assistente Financeiro</h3>
+                    <p>Curso online pela escola Start (2024).</p>
+                </article>
+                <article class="power">
+                    <h3>Power BI</h3>
+                    <p>Curso presencial no IOS (2024).</p>
+                </article>
+                <article class="web">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Curso presencial no IOS (2024).</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="caixa">
+            <h2>Deixe um feedback:</h2>
+            <button onclick="mostrarFormulario()">Preencher</button>
+            <div class="esconder" id="formulario">
+                <label for="name">Seu nome:</label>
+                <input type="text" id="name" placeholder="Digite seu nome">
+                <label for="comentario">Comentário:</label>
+                <input type="text" id="comentario" placeholder="Digite seu comentário">
+                <button type="button" onclick="enviarFeedback()">Enviar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contatos">
+        <div class="rodape">
+            <a href="https://github.com/GabrieleBernardo23" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/gabriele-bernardo-9a0581223/" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="mailto:gabriele.bernardo.oliveira@gmail.com" aria-label="Email"><i class='bx bxs-envelope'></i></a>
+            <a href="tel:11946016440" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+    </footer>
+    <script src="JAVASCRIPT/script.js"></script>
+</body>
+
+</html>
